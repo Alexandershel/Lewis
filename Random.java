@@ -22,8 +22,8 @@ public class RandomShelby
         Scanner scan = new Scanner(System.in);
         Random number = new Random();
         int numPrint, prefix, line;
-        DecimalFormat three = new DecimalFormat("###");
-        DecimalFormat four = new DecimalFormat("####");
+        DecimalFormat three = new DecimalFormat("000");
+        DecimalFormat four = new DecimalFormat("0000");
 
         // prompts user for the number of outputs
         System.out.print("\n\nHow many random phone numbers do you want to see?  ");
